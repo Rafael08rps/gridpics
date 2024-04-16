@@ -1,0 +1,42 @@
+body{
+margin: 0;
+border: 0;
+font-family: "Arial", sans-serif;
+
+
+
+}
+
+header{
+background-color: #333;
+color: #333;
+
+text-align: center;
+padding: 20px;
+}
+
+
+footer{
+
+    background-color: #333;
+    color: #333;
+    
+    
+    text-align: center;
+    padding: 20px;
+}
+
+.grid-item{
+
+    border: 5px solid #ddd;
+    border-radius: 5px;
+
+}
+
+
+.grid-container{
+
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+
+}
